@@ -22,11 +22,6 @@ AZ-500 Links and Schedule
 - Azure CLI Reference - <https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest>
 - Azure N-Tier Architecture - <https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/n-tier/n-tier-sql-server>
 
-### Azure Serverless
-
-- Create Your First Azure Function - <https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-function-vs-code?pivots=programming-language-csharp>
-- Create a Function that Integrates with Logic Apps - <https://docs.microsoft.com/en-us/azure/azure-functions/functions-twitter-email>
-
 ### Post-Course
 
 - Post-Course Takeaways - <https://aka.ms/cptakeaway>
@@ -65,6 +60,8 @@ AZ-500 Links and Schedule
 - AAD: Hybrid Identity
 - Subscription Security
 - LAB: [Privileged Identity Management](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_1/LAB_01_PIM.md "Lab instructions")
+- LAB: [Multi-Factor Auth](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_1/LAB_03_MFA.md)
+- Lab: [App Registration](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_1/LAB_04_App_Registration.md)
 
 ### Tuesday 
 
@@ -95,14 +92,16 @@ AZ-500 Links and Schedule
 - Resource Security: Custom Roles
 - LAB: [Azure Policy](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_1/LAB_07_Azure_Policy.md "Lab instructions")
 - LAB: [Azure Kubernetes Service](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_2/LAB_03_Create%20a%20Kubernetes%20Cluster.md "Lab instructions")
+- LAB: [Azure Policy](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_1/LAB_07_Azure_Policy.md)
+- LAB: [Resource Locks](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_1/LAB_08_Azure_Locks.md)
 
 ### Wednesday 
 
 #### Securing Data and Applications
 
 - Azure Key Vault: Introduction
-- AKV: Access Policies
-- AKV: Secrets
+- Azure Key Vault: Access Policies
+- Azure Key Vault: Secrets
 - Azure Storage: Public Access Levels
 - Azure Storage: Shared Access Signatures
 - Azure Storage: Stored Access Policy
@@ -113,13 +112,14 @@ AZ-500 Links and Schedule
 - Azure SQL: Auditing
 - Azure SQL: Advanced Data Security (ADS)
     - Discovery & Classification
-- Azure SQL: Advanced Data Security (ADS) cont'd
     - Vulnerability Assessment
     - Advanced Threat Protection (ATP)
 - Azure SQL: Dynamic Data Masking (DDM)
 - Azure SQL: Encryption (Always Encrypted)
 - Azure SQL: Diagnostics
 - LAB: [Implementing Always Encrypted using Key Vault](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_1/LAB_02_Key_Vault.md "Lab instructions")
+- LAB: [Classify a SQL Database](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_3/LAB_01_Classify%20a%20SQL%20Database.md)
+- LAB: [Audit a SQL Database](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_3/LAB_02_Auditing%20a%20Database.md)
 
 
 ### Thursday 
@@ -134,6 +134,7 @@ AZ-500 Links and Schedule
 - ASC: Resource Security Hygiene
 - ASC: Advanced Cloud Defense
 - LAB: [Azure Monitor](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_4/LAB_01_Azure%20Monitor.md "Lab instructions")
+- LAB: [ASC: Security Score](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_4/LAB_07_Secure%20score%20in%20Azure%20Security%20Center.md)
 
 - Azure Sentinel: Introduction
 - Azure Sentinel: Data Connectors
@@ -142,3 +143,5 @@ AZ-500 Links and Schedule
 - Azure Sentinel: Analytics
 - Azure Sentinel: Playbooks
 - Takeaways and closing
+- LAB: [Azure Sentinel](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_4/LAB_04_Azure%20Sentinel.md)
+- LAB: [Azure Sentinel Security Playbook](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_4/LAB_06_Security%20Playbook%20in%20Azure%20Sentinel.md)
