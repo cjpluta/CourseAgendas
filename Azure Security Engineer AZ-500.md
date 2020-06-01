@@ -41,8 +41,9 @@ AZ-500 Links and Schedule
 
 - Azure Regions - <https://azure.microsoft.com/en-us/global-infrastructure/regions/>
 - Azure Region Pairs - <https://docs.microsoft.com/en-us/azure/best-practices-availability-paired-regions>
-- Azure Availability Sets - <https://docs.microsoft.com/en-us/azure/virtual-machines/windows/manage-availability>
-- Azure Availability Zones - <https://docs.microsoft.com/en-us/azure/virtual-machines/windows/manage-availability>
+- Azure Subscriptions - <https://docs.microsoft.com/en-us/azure/cost-management-billing/cost-management-billing-overview>
+- Azure Management Groups - <https://docs.microsoft.com/en-us/azure/governance/management-groups/>
+- Azure Resource Groups - <https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal>
 - Azure Portal Demo
 
 #### Manage Identity and Access
