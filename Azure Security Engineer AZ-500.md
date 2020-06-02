@@ -61,6 +61,8 @@ AZ-500 Links and Schedule
 - AAD: App Registrations
 - AAD: Hybrid Identity
 - Subscription Security
+- Resource Security: Role-based Access Control
+- Resource Security: Custom Roles
 - LAB: [Privileged Identity Management](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_1/LAB_01_PIM.md "Lab instructions")
 - LAB: [Multi-Factor Auth](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_1/LAB_03_MFA.md)
 - Lab: [App Registration](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_1/LAB_04_App_Registration.md)
@@ -90,9 +92,6 @@ AZ-500 Links and Schedule
 - Image Security (Content Trust)
 - Resource Security: Locks
 - Resource Security: Azure Policy
-- Resource Security: Role-based Access Control
-- Resource Security: Custom Roles
-- LAB: [Azure Policy](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_1/LAB_07_Azure_Policy.md "Lab instructions")
 - LAB: [Azure Kubernetes Service](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_2/LAB_03_Create%20a%20Kubernetes%20Cluster.md "Lab instructions")
 - LAB: [Azure Policy](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_1/LAB_07_Azure_Policy.md)
 - LAB: [Resource Locks](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_1/LAB_08_Azure_Locks.md)
