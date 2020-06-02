@@ -8,7 +8,7 @@ AZ-500 Links and Schedule
 
 - SkillPipe - <https://www.skillpipe.com>
 - Learn on Demand Systems - <https://aka.ms/tsfblabs/>
--- LODS Interface Guide - <https://aka.ms/tsfb123>
+    - LODS Interface Guide - <https://aka.ms/tsfb123>
 - Lab Exercises - <https://aka.ms/az500labs>
 - Lab Files - <https://aka.ms/az500labfiles>
 
