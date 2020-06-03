@@ -108,6 +108,8 @@ AZ-500 Links and Schedule
 - Azure Storage: Stored Access Policy
 - Azure Storage: Encryption
 - Azure Storage: Key rotation
+- BONUS LAB [Azure Storage]<https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/Labs/LAB_07-Manage_Azure_Storage.html>
+
 - Azure SQL: Introduction
 - Azure SQL: Enabled AAD Authentication
 - Azure SQL: Auditing
