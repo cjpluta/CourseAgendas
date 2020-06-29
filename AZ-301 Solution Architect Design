@@ -88,8 +88,6 @@ LAB: Lab Launch #1, Lab A [Securing Secrets in Azure](https://github.com/Microso
 - LAB: - Lab Launch #4, Lab B - [Deploying Network Infrastructure](https://github.com/MicrosoftLearning/AZ-301-MicrosoftAzureArchitectDesign/blob/master/Instructions/AZ-301T04_Lab_Mod03_Deploying%20Network%20Infrastructure%20for%20use%20in%20Azure%20Solutions.md)
 
 
-
-
 ### Wednesday 
 
 
@@ -101,61 +99,35 @@ LAB: Lab Launch #1, Lab A [Securing Secrets in Azure](https://github.com/Microso
 
 #### Azure Virtual Machines
 
-- AZ-300L01 - Module 03 - Lesson 1 - Creating Virtual Machines
-- AZ-300L01 - Module 03 - Lesson 3 - Virtual Machine Extensions
-- AZ-300L01 - Module 03 - Lesson 2 - Backup and Restore
-- BONUS - High Availability
-- BONUS - Virtual Machine Scale Sets
-- (OPTIONAL) Online Lab - Lab Launch #1, Lab B - Implementing Custom Azure VM Images
-- Online Lab - [Managing Virtual Machine](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/Labs/LAB_08-Manage_Virtual_Machines.html)
+- Creating Virtual Machines
+-  Backup and Restore
+- High Availability
+-  Virtual Machine Scale Sets
 
 ### Thursday 
 
-#### Workloads
-
-- AZ-300L02 - Module 01 - Lesson 1 - Migrate to Azure
-- AZ-300L02 - Module 01 - Lesson 2 - Azure Migrate
-- AZ-300L02 - Module 01 - Lesson 3 - Azure Site Recovery
-- AZ-300L02 - Module 01 - Lesson 4 - Prepare the Infrastructure
-- AZ-300L01 - Module 01 - Lesson 1 - Exploring Monitoring Capabilities in Azure
-- AZ-300L01 - Module 01 - Lesson 3 - Azure Monitor Logs and Log Analytics
-- AZ-300L01 - Module 01 - Lesson 2 - Azure Alerts
-- AZ-300L01 - Module 01 - Lesson 4 - Network Watcher
-- Online Lab - Lab Launch #2, Lab A - Implementing Azure to Azure Migration
-- Online Lab - Lab Launch #1, Lab A - Exploring Monitoring Capabilities in Azure
-
 #### Apps
 
-- AZ-300L04 - Module 03 - Lesson 1 - Creating an Azure Kubernetes Service Cluster
-- AZ-300L04 - Module 03 - Lesson 2 - Deploy an AKS Cluster
-- AZ-300L04 - Module 03 - Lesson 3 - Publish a Container Image to Azure Container Registry
-- AZ-300L04 - Module 03 - Lesson 4 - Create and Run Container Images in Azure Container Instances
-- AZ-300L04 - Module 01 - Lesson 1 - Azure App Service Core Components
-- AZ-300L02 - Module 02 - Lesson 1 - Deploying Web Apps
-- AZ-300L04 - Module 01 - Lesson 2 - Creating an Azure App Service Web App
-- AZ-300L02 - Module 02 - Lesson 3 - App Service Security
-- AZ-300L02 - Module 02 - Lesson 2 - Managing Web Apps
-- AZ-300L04 - Module 01 - Lesson 3 - Creating Background Tasks
-- BONUS Lab - [Implement Web Apps](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/Labs/LAB_09a-Implement_Web_Apps.html)
+- Creating an Azure Kubernetes Service Cluster
+- Deploy an AKS Cluster
+- Publish a Container Image to Azure Container Registry
+- Create and Run Container Images in Azure Container Instances
+- Azure App Service Core Components
+- Deploying Web Apps
+- Creating an Azure App Service Web App
+- App Service Security
+- Managing Web Apps
+-  Creating Background Tasks
+- 
 
-### Friday
-
-#### Apps *(Continued)*
-
-- AZ-300L02 - Module 02 - Lesson 4 - Serverless Computing Concepts
-- AZ-300L02 - Module 02 - Lesson 5 - Managing Azure Functions
-- AZ-300L04 - Module 04 - Lesson 3 - Implement Durable Functions
-- AZ-300L02 - Module 02 - Lesson 6 - Managing Event Grid
-- AZ-300L06 - Module 02 - Lesson 5 - Create and Configure an Event Hub
-- AZ-300L02 - Module 02 - Lesson 7 - Managing Service Bus
-- AZ-300L06 - Module 02 - Lesson 4 - Create and Configure a Notification Hub
-- AZ-300L02 - Module 02 - Lesson 8 - Managing Logic Apps
-- AZ-300L04 - Module 01 - Lesson 5 - Creating an App Service Logic App
-- Online Lab -  Lab Launch 4, Lab A - Implementing Azure Logic Apps
-- BONUS Lab - Lab Launch 6, Lab A - Configuring a Messaged Based Integration Architecture
-
-#### Azure Security
-
-- AZ-300L03 - Module 04 - Lesson 1 - Implementing Authentication in Applications
-- AZ-300L03 - Module 04 - Lesson 3 - Claims-based Authorization
-- AZ-300L03 - Module 04 - Lesson 5 - Implement OAuth2 Authentication
+- Serverless Computing Concepts
+- Managing Azure Functions
+- Implement Durable Functions
+- Managing Event Grid
+- Create and Configure an Event Hub
+- Managing Service Bus
+- Create and Configure a Notification Hub
+-  Managing Logic Apps
+-  Creating an App Service Logic App
+- Online Lab  Implementing Azure Logic Apps
+- BONUS Lab Configuring a Messaged Based Integration Architecture
