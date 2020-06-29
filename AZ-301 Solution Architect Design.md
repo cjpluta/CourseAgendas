@@ -1,6 +1,6 @@
-# Azure Architect Technologies (AZ-300)
+# Azure Architect Design (AZ-301)
 
-AZ-300 Links and Schedule
+AZ-301 Links and Schedule
 
 ## Links
 
