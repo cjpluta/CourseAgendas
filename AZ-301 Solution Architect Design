@@ -68,37 +68,36 @@ LAB: Lab Launch #1, Lab A [Securing Secrets in Azure](https://github.com/Microso
 
 ### Tuesday 
 
+#### Azure Resource Manager
+- ARM Templates
+- Template deployment
+- Quickstart templates
+
 #### Azure Networking
 
 - Azure Virtual Networks
   - Review of IP Addressing
   - Network Security Groups
-  - AZ-300L01 - Module 04 - Lesson 4 - Intersite Connectivity
-  - AZ-300L01 - Module 04 - Lesson 5 - Virtual Network Peering
+  - Intersite Connectivity
+    - VPNs and ExpressRoute
+  - Virtual Network Peering
   - Network Routing
-  - Azure Load Balancer
+  - Load Balancer
   - Application Gateway
   - Traffic Manager
 - LAB: - Lab Launch #4, Lab B - [Deploying Network Infrastructure](https://github.com/MicrosoftLearning/AZ-301-MicrosoftAzureArchitectDesign/blob/master/Instructions/AZ-301T04_Lab_Mod03_Deploying%20Network%20Infrastructure%20for%20use%20in%20Azure%20Solutions.md)
 
-- AZ-300L02 - Module 03 - Lesson 2 - Application Load Balancing
-- AZ-300L02 - Module 03 - Lesson 4 - ExpressRoute Connections
-- AZ-300L02 - Module 03 - Lesson 5 - Azure Virtual WAN
-- Online Lab - Lab Launch #3, Lab B - Implementing Azure Load Balancer Standard
+
+
 
 ### Wednesday 
 
+
 #### Azure Storage
 
-- AZ-300L01 - Module 02 - Lesson 1 - Azure Storage Accounts
-- AZ-300L01 - Module 02 - Lesson 3 - Storing and Accessing Data
-- AZ-300L06 - Module 06 - Lesson 3 - Develop Solutions that use Microsoft Azure Blob Storage
-- AZ-300L03 - Module 03 - Lesson 1 - Encryption Options
-- AZ-300L03 - Module 05 - Lesson 5 - Key Vault
-- Online Lab - Lab Launch #3, Lab A, Implementing Azure Storage Access Controls
-- AZ-300L06 - Module 06 - Lesson 1 - Develop Solutions that use Microsoft Azure Cosmos DB Storage
-- AZ-300L06 - Module 06 - Lesson 2 - Develop Solutions that use a Relational Database
-- AZ-300L03 - Module 03 - Lesson 3 - Implement Azure Confidential Computing
+- Azure Storage Accounts
+  - Replication
+  - Encryption
 
 #### Azure Virtual Machines
 
