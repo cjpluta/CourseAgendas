@@ -64,7 +64,7 @@ AZ-301 Links and Schedule
   - Secrets
   - Certificates
   - Keys
-LAB: Lab Launch #1, Lab A [Securing Secrets in Azure](https://github.com/MicrosoftLearning/AZ-301-MicrosoftAzureArchitectDesign/blob/master/Instructions/AZ-301T01_Lab_Mod01_Securing%20Secrets%20in%20Azure.md)
+  -LAB: Lab Launch #1, Lab A [Securing Secrets in Azure](https://github.com/MicrosoftLearning/AZ-301-MicrosoftAzureArchitectDesign/blob/master/Instructions/AZ-301T01_Lab_Mod01_Securing%20Secrets%20in%20Azure.md)
 
 ### Tuesday 
 
@@ -72,6 +72,7 @@ LAB: Lab Launch #1, Lab A [Securing Secrets in Azure](https://github.com/Microso
 - ARM Templates
 - Template deployment
 - Quickstart templates
+- LAB - Lab Launch #3, Lab A [Getting Started with ARM Templates](https://github.com/MicrosoftLearning/AZ-301-MicrosoftAzureArchitectDesign/blob/master/Instructions/AZ-301T03_Lab_Mod01_Getting%20Started%20with%20Azure%20Resource%20Manager%20Templates.md)
 
 #### Azure Networking
 
