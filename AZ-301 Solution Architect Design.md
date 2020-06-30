@@ -21,6 +21,7 @@ AZ-301 Links and Schedule
 - Azure ARM Template Reference - <https://docs.microsoft.com/en-us/azure/templates/>
 - Azure CLI Reference - <https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest>
 - Azure N-Tier Architecture - <https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/n-tier/n-tier-sql-server>
+- Azure subscription limits and quotas - <https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits>
 
 ### Azure Serverless
 
@@ -48,6 +49,9 @@ AZ-301 Links and Schedule
 - Azure Region Pairs - <https://docs.microsoft.com/en-us/azure/best-practices-availability-paired-regions>
 - Azure Availability Sets - <https://docs.microsoft.com/en-us/azure/virtual-machines/windows/manage-availability>
 - Azure Availability Zones - <https://docs.microsoft.com/en-us/azure/virtual-machines/windows/manage-availability>
+- Subscriptions - <https://docs.microsoft.com/en-us/azure/cost-management-billing/cost-management-billing-overview>
+- Management Groups - <https://docs.microsoft.com/en-us/azure/governance/management-groups/overview>
+- Cloud Adoption Framework and Governance - <https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/>
 - Azure Portal Demo
 
 #### Azure Identity and Security
