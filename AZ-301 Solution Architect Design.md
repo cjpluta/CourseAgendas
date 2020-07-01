@@ -109,22 +109,25 @@ AZ-301 Links and Schedule
 - High Availability
 -  Virtual Machine Scale Sets
 
-### Thursday 
 
-#### Apps
-
-- Creating an Azure Kubernetes Service Cluster
-- Deploy an AKS Cluster
-- Publish a Container Image to Azure Container Registry
-- Create and Run Container Images in Azure Container Instances
+#### App Services
 - Azure App Service Core Components
 - Deploying Web Apps
 - Creating an Azure App Service Web App
 - App Service Security
 - Managing Web Apps
 -  Creating Background Tasks
-- 
 
+### Thursday 
+
+#### Containers
+
+- Creating an Azure Kubernetes Service Cluster
+- Deploy an AKS Cluster
+- Publish a Container Image to Azure Container Registry
+- Create and Run Container Images in Azure Container Instances
+
+#### Serverless
 - Serverless Computing Concepts
 - Managing Azure Functions
 - Implement Durable Functions
@@ -134,5 +137,7 @@ AZ-301 Links and Schedule
 - Create and Configure a Notification Hub
 -  Managing Logic Apps
 -  Creating an App Service Logic App
-- Online Lab  Implementing Azure Logic Apps
-- BONUS Lab Configuring a Messaged Based Integration Architecture
+
+#### Databases
+- Azure SQL
+- CosmosDB
