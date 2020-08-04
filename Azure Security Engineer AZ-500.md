@@ -159,20 +159,22 @@ AZ-500 Links and Schedule
     - Policies
     - Secure Score
     - Compliance
+
+- Labs
+    - [Azure Monitor](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_13_Azure%20Monitor.md)
+
+#### Afternoon
 - Azure Sentinel [Docs](https://docs.microsoft.com/en-us/azure/sentinel/overview)
     - Data Connections
     - Workbooks
     - Incidents
     - Playbooks
     - Hunting
-
-#### Afternoon
 - Wrapup
     - Survey
-    - Takeaways review
+    - [Takeaways review](https://aka.ms/cptakeaway)
     - Additional learning options
     - Learner Experience Portal review [LxP](https://esi.microsoft.com)
 - Labs
-    - [Azure Monitor](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_13_Azure%20Monitor.md)
     - [Security Center](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_14_Security%20Center.md)
     - [Azure Sentinel](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_15_Azure%20Sentinel.md)
