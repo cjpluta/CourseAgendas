@@ -9,8 +9,8 @@ AZ-500 Links and Schedule
 - SkillPipe - <https://www.skillpipe.com>
 - Learn on Demand Systems - <https://aka.ms/tsfblabs/>
     - LODS Interface Guide - <https://aka.ms/tsfb123>
-- Lab Exercises - <https://aka.ms/az500labs>
-- Lab Files - <https://aka.ms/az500labfiles>
+- Lab Exercises - [GitHub Step by Step Labs](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/tree/master/Instructions/Labs)
+- Lab Files - [ZIP File of Labs & Templates](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/archive/master.zip)
 
 ### Azure Tools
 
@@ -29,16 +29,17 @@ AZ-500 Links and Schedule
 
 ## Schedule
 
-### Monday 
+### Monday - Logistics, Introductions, and Identity
 
-#### Logistics
+#### Morning
+
 - Introductions and Agenda
 - Setup your Skillpipe account and redeem courseware code
 - Login (or setup) a personal Microsoft account
 - Connect to lab environment and redeem training key
 - Redeem Azure Pass using your personal Microsoft Account
 
-#### Introduction
+##### Introduction
 
 - Azure Regions - <https://azure.microsoft.com/en-us/global-infrastructure/regions/>
 - Azure Region Pairs - <https://docs.microsoft.com/en-us/azure/best-practices-availability-paired-regions>
@@ -47,104 +48,131 @@ AZ-500 Links and Schedule
 - Azure Resource Groups - <https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal>
 - Azure Portal Demo
 
-#### Manage Identity and Access
+##### Manage Identity and Access
 
-- AAD: Identity Protection
-- AAD: Conditional Access (Policies)
-- AAD: Conditional Access (Named Locations)
-- AAD: Conditional Access (Use Case)
-- AAD: Access Reviews
-- AAD: Privileged Identity Management
-- PIM: Azure AD Roles
-- PIM: Settings
-- PIM: Azure Resources
-- AAD: App Registrations
-- AAD: Hybrid Identity
-- Subscription Security
-- Resource Security: Role-based Access Control
-- Resource Security: Custom Roles
-- LAB: [Privileged Identity Management](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_1/LAB_01_PIM.md "Lab instructions")
-- LAB: [Multi-Factor Auth](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_1/LAB_03_MFA.md)
-- Lab: [App Registration](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_1/LAB_04_App_Registration.md)
+- Identity Management
+    - Azure Active Directory [Docs](https://docs.microsoft.com/en-us/azure/active-directory/)
+    - Risk Policies [Docs](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-policies#user-risk-policy)
+    - Conditional Access [Docs](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview)
+- Governance
+    - Azure AD Roles [Docs](https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)
+    - Azure RM Roles
+    - Custom Roles
+    - Management Groups [Docs](https://docs.microsoft.com/en-us/azure/governance/management-groups/)
+    - Azure Policy [Docs](https://docs.microsoft.com/azure/azure-policy)
+    - Resource Locks [Docs](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-lock-resources)
 
-### Tuesday 
+#### Afternoon
 
-#### Platform Security
+- Privileged Identity Management [Docs](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure)
+    - Time-bound access
+    - Approvals and justifications
+- Hybrid Identity
+    - Azure AD Connect [Docs](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-azure-ad-connect)
+    - Password Hash Synchronization / Password writeback
+    - Pass-through Authentication
+    - [Decision Tree](https://github.com/Azure/fta-identity/blob/master/identity-applications/aad-external-identities-decision-tree.md)
+- Labs
+    - [Role-based Access Control](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_01_RBAC.md)
+    - [Azure Policy](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_02_AzurePolicy.md)
+    - [Resource Locks](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_03_AzureLocks.md)
+    - [Multi-Factor Authentication](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_04_MFAConditionalAccessandAADIdentityProtection.md)
+    - [Privileged Identity Management](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_05_PIM.md)
+    - [Identity Synchronization](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_06_ImplementDirectorySynchronization.md)
+    
+### Tuesday - Platform Security
 
-- Virtual Network Connectivity
-- Network Security Groups (NSG): Introduction
-- Network Security Groups (NSG): Inbound
-- Network Security Groups (NSG): Outbound
-- Application Security Groups (ASG)
-- Remote Access Management
-- Azure Firewall
-- Azure Front Door
-- LAB: [NSG & ASG](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_2/LAB_05_NSGs.md "Lab instructions")
-- LAB: [Azure Firewall](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_2/LAB_12_Azure%20Firewall.md "Lab instructions")
+#### Morning
 
-- Virtual Machine Security
-    - Antimalware
-    - Azure Disk Encryption (ADE)
-- Container Security: Azure Kubernetes Service (AKS)
-- Container Security: Azure Container Registry (ACR)
-- Container Security: AKS & ACR
-- Container Networking (CNI)
-- Image Security (Content Trust)
-- Resource Security: Locks
-- Resource Security: Azure Policy
-- LAB: [Azure Kubernetes Service](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_2/LAB_03_Create%20a%20Kubernetes%20Cluster.md "Lab instructions")
-- LAB: [Azure Policy](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_1/LAB_07_Azure_Policy.md)
-- LAB: [Resource Locks](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_1/LAB_08_Azure_Locks.md)
+- Perimeter Security
+    - Virtual Network Security
+    - DDoS Protection [Docs](https://docs.microsoft.com/en-us/azure/virtual-network/ddos-protection-overview)
+    - Azure Firewall [Docs](https://docs.microsoft.com/en-us/azure/firewall/overview)
+    - VPN Gateways w/ Tunneling [Docs](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-forced-tunneling-rm)
+    - User Defined Routes [Docs](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview)
+- Network Connectivity
+    - Network Security Groups [Docs](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview#network-security-groups )
+    - App Security Groups
+    - Service and Private Endpoints [Docs](https://docs.microsoft.com/en-us/azure/private-link/private-link-overview)
+    - Azure App Gateway / Web App Firewall [Docs](https://docs.microsoft.com/en-us/azure/application-gateway)
+    - Azure Front Door / Traffic Manager [Docs](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-overview)
+    - ExpressRoute [Docs](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-introduction)
 
-### Wednesday 
+#### Afternoon
 
-#### Securing Data and Applications
+- Host Security
+    - Endpoint Protection
+    - Privileged Access Workstations
+    - VM Templates [Docs](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
+    - Remote Access Management - Azure Bastion [Docs](https://docs.microsoft.com/en-us/azure/bastion/bastion-overview)
+    - Update management
+    - Disk encryption [Docs](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/disk-encryption-overview)
+    - Security Center [Docs](https://docs.microsoft.com/en-us/azure/security-center/security-center-virtual-machine-protection)
+- Container Security
+    - Azure Container Registry [Docs](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-intro)
+    - Azure Container Instances [Docs](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-overview)
+    - Azure Kubernetes Service [Docs](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes)
+- Labs
+    - [Container Security](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_09_ConfiguringandSecuringACRandAKS.MD)
 
-- Azure Key Vault: Introduction
-- Azure Key Vault: Access Policies
-- Azure Key Vault: Secrets
-- Azure Storage: Public Access Levels
-- Azure Storage: Shared Access Signatures
-- Azure Storage: Stored Access Policy
-- Azure Storage: Encryption
-- Azure Storage: Key rotation
-- BONUS LAB [Azure Storage]<https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/Labs/LAB_07-Manage_Azure_Storage.html>
+### Wednesday - Data and App Security
 
-- Azure SQL: Introduction
-- Azure SQL: Enabled AAD Authentication
-- Azure SQL: Auditing
-- Azure SQL: Advanced Data Security (ADS)
-    - Discovery & Classification
-    - Vulnerability Assessment
-    - Advanced Threat Protection (ATP)
-- Azure SQL: Dynamic Data Masking (DDM)
-- Azure SQL: Encryption (Always Encrypted)
-- Azure SQL: Diagnostics
-- LAB: [Implementing Always Encrypted using Key Vault](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_1/LAB_02_Key_Vault.md "Lab instructions")
-- LAB: [Classify a SQL Database](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_3/LAB_01_Classify%20a%20SQL%20Database.md)
-- LAB: [Audit a SQL Database](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_3/LAB_02_Auditing%20a%20Database.md)
+#### Morning
 
+- Azure Key Vault [Docs](https://docs.microsoft.com/en-us/azure/key-vault/general/overview)
+    - Keys
+    - Certificates
+    - Secrets
+- Application Security
+    - App Registration [Docs](https://docs.microsoft.com/en-us/graph/auth/auth-concepts#register-your-app-with-the-microsoft-identity-platform)
+    - Web App Certificates [Docs](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-configure-tls-mutual-auth)
+- Lab
+    - [Key Vault](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_10_KeyVaultImplementingSecureDatabysettingupAlwaysEncrypted.md)
 
-### Thursday 
+#### Afternoon
 
-#### Security Operations
+- Storage Security
+    - Storage Accounts
+    - Shared Access Signatures [Docs](https://docs.microsoft.com/en-us/rest/api/storageservices/delegate-access-with-shared-access-signature)
+    - Storage Encryption [Docs](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption)
+    - Retention policies [Docs](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-immutability-policies-manage?tabs=azure-portal)
+- Database Security
+    - SQL Authentication [Docs]( https://docs.microsoft.com/en-us/azure/sql-database/sql-database-manage-logins)
+    - Database Firewalls [Docs](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure)
+    - Database auditing [Docs](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-auditing)
+    - Data discovery and classification [Docs](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-data-discovery-and-classification)
+    - Dynamic Data Masking [Docs](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-dynamic-data-masking-get-started)
+    - Transparent Data Encryption [Docs](https://docs.microsoft.com/en-us/azure/sql-database/transparent-data-encryption-azure-sql?tabs=azure-portal)
+    - Always Encrypted [Docs](https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver15)
+- Labs
+    - [Securing SQL Databases](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_11_SecuringAzureSQLDatabase.MD)
+    - [Securing Storage](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_12_SecuringAzureStorage.MD)
+
+### Thursday - Security Operations
+
+#### Morning
 
 - Azure Monitor
-- Azure Log Analytics
-- Diagnostic Logging
-- Azure Security Center: Introduction
-- ASC: Policy & Compliance
-- ASC: Resource Security Hygiene
-- ASC: Advanced Cloud Defense
-- LAB: [Azure Monitor](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_4/LAB_01_Azure%20Monitor.md "Lab instructions")
-- LAB: [ASC: Security Score](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_4/LAB_07_Secure%20score%20in%20Azure%20Security%20Center.md)
+    - Metrics and Alerts [Docs](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-platform-metrics)
+    - Log Analytics [Docs](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/quick-create-workspace)
+- Security Center [Docs](https://docs.microsoft.com/en-us/azure/security-center)
+    - Policies
+    - Secure Score
+    - Compliance
+- Azure Sentinel [Docs](https://docs.microsoft.com/en-us/azure/sentinel/overview)
+    - Data Connections
+    - Workbooks
+    - Incidents
+    - Playbooks
+    - Hunting
 
-- Azure Sentinel: Introduction
-- Azure Sentinel: Data Connectors
-- Azure Sentinel: Workbooks & Incidents
-- Azure Sentinel: Hunting & Notebooks
-- Azure Sentinel: Analytics
-- Azure Sentinel: Playbooks
-- Takeaways and closing
-- LAB: [Azure Sentinel](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_4/LAB_04_Azure%20Sentinel.md)
-- LAB: [Azure Sentinel Security Playbook](https://github.com/MicrosoftLearning/AZ-500-Azure-Security/blob/master/Instructions/Labs/Module_4/LAB_06_Security%20Playbook%20in%20Azure%20Sentinel.md)
+#### Afternoon
+- Wrapup
+    - Survey
+    - Takeaways review
+    - Additional learning options
+    - Learner Experience Portal review [LxP](https://esi.microsoft.com)
+- Labs
+    - [Azure Monitor](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_13_Azure%20Monitor.md)
+    - [Security Center](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_14_Security%20Center.md)
+    - [Azure Sentinel](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_15_Azure%20Sentinel.md)
