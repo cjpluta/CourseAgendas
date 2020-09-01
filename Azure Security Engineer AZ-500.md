@@ -59,6 +59,10 @@ AZ-500 Links and Schedule
     - [Decision Tree](https://github.com/Azure/fta-identity/blob/master/identity-applications/aad-external-identities-decision-tree.md)
 - Risk Policies [Docs](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-policies#user-risk-policy)
 - Conditional Access [Docs](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview)
+
+
+#### Afternoon
+
 - Governance
     - Azure AD Roles [Docs](https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)
     - Azure RM Roles
@@ -67,23 +71,19 @@ AZ-500 Links and Schedule
     - Azure Policy [Docs](https://docs.microsoft.com/azure/azure-policy)
     - Resource Locks [Docs](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-lock-resources)
 
-#### Afternoon
-
-- Privileged Identity Management [Docs](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure)
-    - Time-bound access
-    - Approvals and justifications
-
 - Labs
     - [Role-based Access Control](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_01_RBAC.md)
     - [Azure Policy](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_02_AzurePolicy.md)
     - [Resource Locks](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_03_AzureLocks.md)
     - [Multi-Factor Authentication](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_04_MFAConditionalAccessandAADIdentityProtection.md)
-    - [Privileged Identity Management](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_05_PIM.md)
-    - [Identity Synchronization](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_06_ImplementDirectorySynchronization.md)
-    
+   
 ### Tuesday - Platform Security
 
 #### Morning
+
+- Privileged Identity Management [Docs](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure)
+    - Time-bound access
+    - Approvals and justifications
 
 - Perimeter Security
     - Virtual Network Security
@@ -91,6 +91,15 @@ AZ-500 Links and Schedule
     - Azure Firewall [Docs](https://docs.microsoft.com/en-us/azure/firewall/overview)
     - VPN Gateways w/ Tunneling [Docs](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-forced-tunneling-rm)
     - User Defined Routes [Docs](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview)
+
+- Labs
+    - [Privileged Identity Management](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_05_PIM.md)
+    - [Identity Synchronization](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_06_ImplementDirectorySynchronization.md)
+    - [Network Security Groups](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_07_NSGs.md) 
+
+
+#### Afternoon
+
 - Network Connectivity
     - Network Security Groups [Docs](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview#network-security-groups )
     - App Security Groups
@@ -98,9 +107,6 @@ AZ-500 Links and Schedule
     - Azure App Gateway / Web App Firewall [Docs](https://docs.microsoft.com/en-us/azure/application-gateway)
     - Azure Front Door / Traffic Manager [Docs](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-overview)
     - ExpressRoute [Docs](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-introduction)
-
-#### Afternoon
-
 - Host Security
     - Endpoint Protection
     - Privileged Access Workstations
@@ -109,17 +115,20 @@ AZ-500 Links and Schedule
     - Update management
     - Disk encryption [Docs](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/disk-encryption-overview)
     - Security Center [Docs](https://docs.microsoft.com/en-us/azure/security-center/security-center-virtual-machine-protection)
-- Container Security
-    - Azure Container Registry [Docs](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-intro)
-    - Azure Container Instances [Docs](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-overview)
-    - Azure Kubernetes Service [Docs](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes)
-- Labs
-    - [Container Security](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_09_ConfiguringandSecuringACRandAKS.MD)
+ 
+ - Labs
+    - [Azure Firewall](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_08_AzureFirewall.md)
 
 ### Wednesday - Data and App Security
 
 #### Morning
 
+
+- Container Security
+    - Azure Container Registry [Docs](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-intro)
+    - Azure Container Instances [Docs](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-overview)
+    - Azure Kubernetes Service [Docs](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes)
+    
 - Azure Key Vault [Docs](https://docs.microsoft.com/en-us/azure/key-vault/general/overview)
     - Keys
     - Certificates
@@ -129,6 +138,7 @@ AZ-500 Links and Schedule
     - Web App Certificates [Docs](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-configure-tls-mutual-auth)
 - Lab
     - [Key Vault](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_10_KeyVaultImplementingSecureDatabysettingupAlwaysEncrypted.md)
+    - [Container Security](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_09_ConfiguringandSecuringACRandAKS.MD)
 
 #### Afternoon
 
@@ -160,11 +170,6 @@ AZ-500 Links and Schedule
     - Policies
     - Secure Score
     - Compliance
-
-- Labs
-    - [Azure Monitor](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_13_Azure%20Monitor.md)
-
-#### Afternoon
 - Azure Sentinel [Docs](https://docs.microsoft.com/en-us/azure/sentinel/overview)
     - Data Connections
     - Workbooks
@@ -176,6 +181,11 @@ AZ-500 Links and Schedule
     - [Takeaways review](https://aka.ms/cptakeaway)
     - Additional learning options
     - Learner Experience Portal review [LxP](https://esi.microsoft.com)
+    
+#### Afternoon
+
+
 - Labs
+    - [Azure Monitor](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_13_Azure%20Monitor.md)
     - [Security Center](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_14_Security%20Center.md)
     - [Azure Sentinel](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_15_Azure%20Sentinel.md)
