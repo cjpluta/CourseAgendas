@@ -95,7 +95,7 @@ AZ-500 Links and Schedule
 - Labs
     - [Privileged Identity Management](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_05_PIM.md)
     - [Identity Synchronization](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_06_ImplementDirectorySynchronization.md)
-    - [Network Security Groups](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_07_NSGs.md) 
+    
 
 
 #### Afternoon
@@ -117,6 +117,7 @@ AZ-500 Links and Schedule
     - Security Center [Docs](https://docs.microsoft.com/en-us/azure/security-center/security-center-virtual-machine-protection)
  
  - Labs
+    - [Network Security Groups](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_07_NSGs.md) 
     - [Azure Firewall](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_08_AzureFirewall.md)
 
 ### Wednesday - Data and App Security
