@@ -52,8 +52,13 @@ AZ-500 Links and Schedule
 
 - Identity Management
     - Azure Active Directory [Docs](https://docs.microsoft.com/en-us/azure/active-directory/)
-    - Risk Policies [Docs](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-policies#user-risk-policy)
-    - Conditional Access [Docs](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview)
+- Hybrid Identity
+    - Azure AD Connect [Docs](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-azure-ad-connect)
+    - Password Hash Synchronization / Password writeback
+    - Pass-through Authentication
+    - [Decision Tree](https://github.com/Azure/fta-identity/blob/master/identity-applications/aad-external-identities-decision-tree.md)
+- Risk Policies [Docs](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-policies#user-risk-policy)
+- Conditional Access [Docs](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview)
 - Governance
     - Azure AD Roles [Docs](https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)
     - Azure RM Roles
@@ -67,11 +72,7 @@ AZ-500 Links and Schedule
 - Privileged Identity Management [Docs](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure)
     - Time-bound access
     - Approvals and justifications
-- Hybrid Identity
-    - Azure AD Connect [Docs](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-azure-ad-connect)
-    - Password Hash Synchronization / Password writeback
-    - Pass-through Authentication
-    - [Decision Tree](https://github.com/Azure/fta-identity/blob/master/identity-applications/aad-external-identities-decision-tree.md)
+
 - Labs
     - [Role-based Access Control](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_01_RBAC.md)
     - [Azure Policy](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_02_AzurePolicy.md)
