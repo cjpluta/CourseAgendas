@@ -29,7 +29,7 @@ AZ-500 Links and Schedule
 
 ## Schedule
 
-### Monday - Logistics, Introductions, and Identity
+### Day One - Logistics, Introductions, and Identity
 
 #### Morning
 
@@ -77,7 +77,7 @@ AZ-500 Links and Schedule
     - [Resource Locks](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_03_AzureLocks.md)
     - [Multi-Factor Authentication](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_04_MFAConditionalAccessandAADIdentityProtection.md)
    
-### Tuesday - Platform Security
+### Day Two - Platform Security
 
 #### Morning
 
@@ -107,6 +107,16 @@ AZ-500 Links and Schedule
     - Azure App Gateway / Web App Firewall [Docs](https://docs.microsoft.com/en-us/azure/application-gateway)
     - Azure Front Door / Traffic Manager [Docs](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-overview)
     - ExpressRoute [Docs](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-introduction)
+
+ 
+ - Labs
+    - [Network Security Groups](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_07_NSGs.md) 
+    - [Azure Firewall](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_08_AzureFirewall.md)
+
+### Day Three - Data and App Security
+
+#### Morning
+
 - Host Security
     - Endpoint Protection
     - Privileged Access Workstations
@@ -115,16 +125,7 @@ AZ-500 Links and Schedule
     - Update management
     - Disk encryption [Docs](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/disk-encryption-overview)
     - Security Center [Docs](https://docs.microsoft.com/en-us/azure/security-center/security-center-virtual-machine-protection)
- 
- - Labs
-    - [Network Security Groups](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_07_NSGs.md) 
-    - [Azure Firewall](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_08_AzureFirewall.md)
-
-### Wednesday - Data and App Security
-
-#### Morning
-
-
+    
 - Container Security
     - Azure Container Registry [Docs](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-intro)
     - Azure Container Instances [Docs](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-overview)
@@ -134,15 +135,16 @@ AZ-500 Links and Schedule
     - Keys
     - Certificates
     - Secrets
-- Application Security
-    - App Registration [Docs](https://docs.microsoft.com/en-us/graph/auth/auth-concepts#register-your-app-with-the-microsoft-identity-platform)
-    - Web App Certificates [Docs](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-configure-tls-mutual-auth)
+
 - Lab
     - [Key Vault](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_10_KeyVaultImplementingSecureDatabysettingupAlwaysEncrypted.md)
     - [Container Security](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_09_ConfiguringandSecuringACRandAKS.MD)
 
 #### Afternoon
 
+- Application Security
+    - App Registration [Docs](https://docs.microsoft.com/en-us/graph/auth/auth-concepts#register-your-app-with-the-microsoft-identity-platform)
+    - Web App Certificates [Docs](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-configure-tls-mutual-auth)
 - Storage Security
     - Storage Accounts
     - Shared Access Signatures [Docs](https://docs.microsoft.com/en-us/rest/api/storageservices/delegate-access-with-shared-access-signature)
@@ -160,7 +162,7 @@ AZ-500 Links and Schedule
     - [Securing SQL Databases](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_11_SecuringAzureSQLDatabase.MD)
     - [Securing Storage](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_12_SecuringAzureStorage.MD)
 
-### Thursday - Security Operations
+### Day Four - Security Operations
 
 #### Morning
 
